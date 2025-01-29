@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.w-1250 {
+    width: 1250px;
+    display: flex;
+}
+
+.header {
+    width: 100%;
+    height: 86px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background-color: #EFF0F3;
+    box-shadow: 4px 6px 13px #D7D7D740;
+
+}
+
+.header .w-1250 {
+    width: 1250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo h2 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    color: #6246EA;
+}
+
+h2 span {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 36px;
+    color: #001858;
+}
+
+header .w-1250 ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5vw;
+    list-style-type: none;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.img-icon {
+    margin-right: 10px;
+}
+
+.coffee-button {
+    width: 213px;
+    height: 44px;
+    border-radius: 4px;
+    border-color: #6246EA;
+    background-color: #6246EA;
+    color: #FFFFFE;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    display: flex;
+    padding: 10px 17px;
+    align-items: flex-start;
+}
+
+.introductory_page {
+
+    width: 100%;
+    height: 814px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #EFF0F3;
+
+}
+
+.introductory {
+    width: 664px;
+    height: 345px;
+    margin-top: 271px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.dasteen {
+    width: 617px;
+    height: 162px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.description {
+    width: 652px;
+    color: #9A9494;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-left: #2B2C34 solid;
+    padding-left: 11px;
+}
+
+input[type = "email"] {
+    width: 219px;
+    height: 25px;
+    border-radius: 8px;
+    border: #FFFFFE;
+    background: #FFFFFE;
+    display: flex;
+    padding: 21px 200px 21px 25px;
+    align-items: center;
+    gap: 10px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #C0C0C0;
+    font-size: 20px;
+    font-weight: 400;
+    box-shadow: 4px 6px 13px #D7D7D740;
+}
+
+#email-form {
+    width: 609px;
+    height: 67px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.subscribe {
+    display: flex;
+    width: 145px;
+    height: 67px;
+    padding: 20px 23px 19px 23px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+#dasteen-img {
+    margin-top: 250px;
+    margin-left: 116px;
+}
+
+.browse_category {
+    width: 100%;
+    height: 500px;
+    background: #EFF0F3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.w-1252_h-365 {
+    width: 1252px;
+    height: 365px;
+    display: flex;
+    flex-direction: column;
+}
+
+.search_category {
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.search_category p {
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.see_all {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.see_all p {
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.see_all img {
+    width: 6px;
+    height: 14px;
+    margin: 9px 7px 2px 12px;
+}
+
+.category {
+    width: 1248px;
+    height: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.component {
+    width: 220px;
+    height: 280px;
+    border-radius: 8px;
+    background: #FFFFFE;
+}
+
+.icon_60 {
+    width: 60px;
+    height: 60px;
+    padding-bottom: 30px;
+}
+
+.direction {
+    height: 120px;
+    margin-top: 65px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.articles {
+    height: 4792px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.w-1252_h-490 {
+    width: 1252px;
+    height: 490px;
+    margin-top: 80px;
+}
+
+.article_cards{
+    width: 1248px;
+    height: 425px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.article_card {
+    width: 300px;
+    height: 425px;
+
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    height: 385px;
+    padding: 20px;
+
+}
+
+.content_img {
+    padding-bottom: 25px;
+}
+
+.content_overview{
+    width: 260px;
+    height: 75px;
+    margin-bottom: 30px;
+}
+
+.content span {
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.dasteen_author{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 260px;
+    height: 57px;
+
+}
+
+.dasteen_author img{
+    width: 57px;
+    height: 57px;
+    margin-right: 15px;
+}
+
+.data{
+    height: 46px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dasteen_author span{
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.dasteen_author p{
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
