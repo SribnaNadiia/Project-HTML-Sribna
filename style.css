@@ -135,7 +135,7 @@ input[type = "email"] {
     box-shadow: 4px 6px 13px #D7D7D740;
 }
 
-#email-form {
+.email-form {
     width: 609px;
     height: 67px;
     display: flex;
@@ -255,7 +255,7 @@ input[type = "email"] {
 }
 
 .articles {
-    height: 4792px;
+    height: 2520px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -344,3 +344,172 @@ input[type = "email"] {
     font-weight: 400;
 }
 
+.more_article{
+    width: 165px;
+    height: 64px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    color: #FFFFFE;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border-color: #6246EA;
+    background: #6246EA;
+}
+
+.subscribe_section{
+    width: 100%;
+    height: 453px;
+    background: #EFF0F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe_content{
+    width: 696px;
+    height: 337px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.postbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_130{
+    width: 130px;
+    height: 130px;
+    background-image: url("img/Ellipse 93.png");
+    border-radius: 50%;
+    box-shadow: 13px 13px 13px 13px #D7D7D740;
+}
+
+.mail_content{
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.subscribe_post_content{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.subscribe_post_content p{
+    color: #C0C0C0;
+    text-align: center;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer{
+    width: 100%;
+    height: 435px;
+    background: #E4E5E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_content{
+    width: 1249px;
+    height: 245px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.social_media{
+    width: 284px;
+    height: 138px;
+}
+
+.social_media p{
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.media_icon{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.icon_30{
+    width: 30px;
+    height: 30px;
+    background-image: url("/img/Medium Monogram.png");
+}
+
+.media_icon img{
+    width: 24px;
+    height: 24px;
+}
+
+.footer_navigation{
+
+    width: 805px;
+    height: 245px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.footer_navigation_category{
+    width: 129px;
+}
+
+.footer_navigation_about_me{
+    width: 113px;
+}
+
+.footer_navigation_get_in_touch{
+    width: 159px;
+}
+
+.footer_navigation_follow_us{
+    width: 119px;
+}
+
+.footer_navigation span{
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.footer_navigation ul{
+    display: flex;
+    flex-direction: column;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    list-style-type: none;
+    padding-top: 20px;
+    gap: 20px;
+}
